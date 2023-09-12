@@ -1,16 +1,16 @@
 package com.driver;
 
 public class RWOnly {
-    private int variable = 24;
+    private String name = "Accio";
 
-    public int setVariable(int variable1)
+    public String setName(String newName)
     {
-        this.variable = variable1;
-        return variable;
+        this.name = newName;
+        return name;
     }
-    public int getVariable()
+    public String getName()
     {
-        return variable;
+        return name;
     }
 
 
